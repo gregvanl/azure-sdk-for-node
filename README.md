@@ -51,6 +51,14 @@ There are three ways to authenticate against Azure while using the `azure-graph`
 
 ## Third-party modules
 
+| **Package** | **Description** | **Documentation** |
+| -------------| ---------------| ----------------- |
+| [tedius](https://www.npmjs.com/package/tedious) | SQL Server integration | [Tedius](http://tediousjs.github.io/tedious/)|
+| [mysql2](https://www.npmjs.com/package/mysql2) | MySQL integration | [node-mysql2](https://github.com/sidorares/node-mysql2)|
+| [postgres](https://www.npmjs.com/package/pg ) | Non-blocking PostgreSQL client | [node-postgres](https://github.com/brianc/node-postgres)|
+| [redis](https://www.npmjs.com/package/redis) | Redis client | [node_redis](https://github.com/NodeRedis/node_redis)|
+
+
 ## Need Help?
 
 * [Read the docs](https://aka.ms/azure-node-sdk)
