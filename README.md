@@ -18,15 +18,15 @@ For example to install the Storage package, you would run:
 $ npm install azure-storage
 ```
 
-Note: You can install all the packages in this SDK by using `npm install azure`. This will include helper modules (`ms-rest-azure`) as well as all of the individual modules. This organization method also allows for submodules (and peer dependent modules) to always be in sync with each other.
+Note: You can install all the packages in this SDK by using `npm install azure`. This will include [helper](CONTROL.md#base-libraries) modules (`ms-rest-azure`) as well as all of the individual modules. This organization method also allows for submodules (and peer dependent modules) to always be in sync with each other.
 
 ## Supported services
 
 This SDK has support for:
 
 - Azure services (packages with the naming convention of `azure-<servicename>`).
-- [ARM services](control.md#azure-resource-management) (packages with the naming convention of `azure-arm-*`)
-- legacy [ASM services](control.md#azure-service-management) (packages with the naming convention of `azure-asm-*`)
+- [ARM services](CONTROL.md#azure-resource-management) (packages with the naming convention of `azure-arm-*`)
+- legacy [ASM services](CONTROL.md#azure-service-management) (packages with the naming convention of `azure-asm-*`)
 
 ## Azure service modules
 
