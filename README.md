@@ -30,17 +30,17 @@ This SDK has support for:
 
 ## Azure service modules
 
-| **Azure Service** | **package name** |
-| ----------------------------------------------------------------------------- | --------------------------- |
-| [Gallery](http://azure.microsoft.com/en-us/marketplace/)                          | `azure-gallery`       |
-| [Graph](https://azure.microsoft.com/en-us/services/active-directory/)             | `azure-graph`         |
-| [Key Vault](http://azure.microsoft.com/en-us/services/key-vault/)                 | `azure-keyvault`      |
-| [Monitoring](https://msdn.microsoft.com/library/azure/dn306639.aspx)              | `azure-monitoring`    |
-| [Scheduler](http://azure.microsoft.com/en-us/services/scheduler/)                 | `azure-scheduler`     |
-| [Service Fabric](https://azure.microsoft.com/en-us/services/service-fabric/)      | `azure-servicefabric` |
-| [Service Bus](http://azure.microsoft.com/en-us/services/service-bus/)             | `azure-sb`            |
-| [Storage](http://azure.microsoft.com/en-us/services/storage/)                     | `azure-storage`       |
-| [Batch](https://azure.microsoft.com/en-us/services/batch/)                        | `azure-batch`         |
+| **Package** | **Description** | **Documentation** |
+| -------------| ---------------| ----------------- |
+| [azure-gallery](https://www.npmjs.com/package/azure-gallery) | Access to the [Azure Marketplace](http://azure.microsoft.com/en-us/marketplace/)| [azure-gallery package](https://docs.microsoft.com/en-us/javascript/api/azure-gallery)|
+| [azure-graph](https://www.npmjs.com/package/azure-graph) | Access to [Azure Active Directory](https://azure.microsoft.com/en-us/services/active-directory/) | [Azure Active Directory modules](https://docs.microsoft.com/en-us/javascript/api/overview/azure/activedirectory)|
+| [azure-keyvault](https://www.npmjs.com/package/azure-keyvault) | Integrate with [Key Vault](http://azure.microsoft.com/en-us/services/key-vault/)| [Azure Key Vault modules](https://docs.microsoft.com/en-us/javascript/api/overview/azure/key-vault)|
+| [azure-monitoring](https://www.npmjs.com/package/azure-monitoring) | [Azure Monitoring](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview) | [azure-monitoring package](https://docs.microsoft.com/en-us/javascript/api/azure-monitoring) |
+| [azure-scheduler](https://www.npmjs.com/package/azure-scheduler) | Create jobs with [Azure Scheduler](http://azure.microsoft.com/en-us/services/scheduler/) | [Azure Scheduler modules](https://docs.microsoft.com/en-us/javascript/api/overview/azure/scheduler)|
+| [azure-servicefabric](https://www.npmjs.com/package/azure-servicefabric) | [Azure Service Fabric](https://azure.microsoft.com/en-us/services/service-fabric/) | [Azure Service Fabric modules](https://docs.microsoft.com/en-us/javascript/api/overview/azure/service-fabric) |
+| [azure-sb](https://www.npmjs.com/package/azure-sb) | [Service Bus](http://azure.microsoft.com/en-us/services/service-bus/) | [Azure Service Bus modules](https://docs.microsoft.com/en-us/javascript/api/overview/azure/service-bus)|
+| [azure-storage](https://www.npmjs.com/package/azure-storage) | [Storage](http://azure.microsoft.com/en-us/services/storage/) | [Azure Storage modules](https://docs.microsoft.com/javascript/api/overview/azure/storage)|
+| [azure-batch](https://www.npmjs.com/package/azure-batch)| [Azure Batch](https://azure.microsoft.com/en-us/services/batch/) processing | [azure-batch package](https://docs.microsoft.com/en-us/javascript/api/azure-batch)|
 
 >Note: If there is a Microsoft Azure service that doesn't have a package yet, [open an issue](https://github.com/Azure/azure-sdk-for-node/issues)
 so that we may prioritize it in the backlog.
